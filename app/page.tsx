@@ -12,7 +12,7 @@ import Podcast2 from "./components/home/podcast2";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { motion } from "motion/react";
-import { paths } from "@/lib/constant";
+
 
 export default function Home() {
   const ref = useRef(null);

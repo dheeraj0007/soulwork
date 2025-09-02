@@ -50,10 +50,10 @@ export default function MediaKit() {
                 THE PHILANTHROPIC FEMME
               </p>
               <p>
-                Globally celebrated teacher of teachers, founder of SoulWork™, and producer of SoulWork™: The Film. Adi Shakti mentors creators of Dharmic Legacy Brands that fuse spiritual depth, business excellence, and philanthropic redistribution—anchoring the women's wealth movement in focused, tangible global impact. She who walks the talk.
+                Globally celebrated teacher of teachers, founder of SoulWork™, and producer of SoulWork™: The Film. Adi Shakti mentors creators of Dharmic Legacy Brands that fuse spiritual depth, business excellence, and philanthropic redistribution—anchoring the women&apos;s wealth movement in focused, tangible global impact. She who walks the talk.
               </p>
               <p>
-                With multi-millions in lifetime revenue from retreats, yoga teacher trainings, and Soul-to-Work mentoring, Adi has certified 3,000+ facilitators and led 50+ international immersions in her "deep roots, wide branches" SoulWork™ methodology.
+                With multi-millions in lifetime revenue from retreats, yoga teacher trainings, and Soul-to-Work mentoring, Adi has certified 3,000+ facilitators and led 50+ international immersions in her &ldquo;deep roots, wide branches&rdquo; SoulWork™ methodology.
               </p>
               <p>
                 Her philanthropic footprint spans indigenous rights advocacy in Central America to human-trafficking survivor support in India—embodying a vision where spiritual practice, wealth, and service co-create a just and compassionate world. 
