@@ -2,6 +2,7 @@
 import SmoothScroll from "./components/home/smooth-scroll";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import OptIn from "./components/home/opt-in";
 import Intro from "./components/home/intro";
 import Ascent from "./components/home/ascent";
@@ -12,6 +13,8 @@ import Podcast2 from "./components/home/podcast2";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { motion } from "motion/react";
+import Testimonials from "./testimonials/page";
+import FeaturedOn from "./components/home/featured-on";
 
 
 export default function Home() {
@@ -144,14 +147,27 @@ export default function Home() {
 
       <Intro />
 
+      {/* Social Image Section */}
+      <section className="bg-white">
+        <div className="w-full">
+          <Image
+            src="/social.webp"
+            alt="Social"
+            width={1920}
+            height={1080}
+            className="w-full h-auto"
+          />
+        </div>
+      </section>
+
       <Read2 />
       <Watch />
       <Ascent />
       <Podcast2 />
       {/* <AdiSpeaks /> */}
-
+<Testimonials/>
       {/* <Testimonials /> */}
-      <Trust />
+      <Trust/>
     </div>
   );
 }

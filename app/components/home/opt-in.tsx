@@ -33,6 +33,17 @@ function OptIn() {
             rooted in spiritual depth.
           </p>
 
+          {/* Mobile-only image between paragraph and form */}
+          <div className="md:hidden mb-6 flex justify-center">
+            <Image
+              src={"/optin.PNG"}
+              height={300}
+              width={300}
+              alt="opt-in mobile"
+              className="rounded-lg"
+            />
+          </div>
+
           {/* ConvertKit Opt-in Form */}
           <div className="grid gap-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -71,7 +82,7 @@ function OptIn() {
             our Terms of Use and Privacy Policy.
           </Link>
         </div>
-        <div className="mt-4">
+        <div className="mt-4 hidden md:block">
           <Image
             src={"/optin.PNG"}
             height={400}

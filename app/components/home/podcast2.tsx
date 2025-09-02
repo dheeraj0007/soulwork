@@ -113,7 +113,7 @@ function Podcast2() {
             <Link
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
               href={
-                "https://soulwork.libsyn.com/s4-e10-the-pioneer-code-that-separates-movers-from-the-masses-w-bridget-james-ling"
+                "https://podcasts.apple.com/us/podcast/s3-e10-the-pioneer-code-that-separates-movers-from/id1435719818?i=1000724556867"
               }
               target="_blank"
             >
@@ -140,7 +140,7 @@ function Podcast2() {
             <Link
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
               href={
-                "https://soulwork.libsyn.com/s3e9-the-almighty-teaching-from-adi-shakti-herself"
+                "https://podcasts.apple.com/us/podcast/s3-e9-the-almighty-teaching-from-adi-shakti-herself/id1435719818?i=1000723257102"
               }
               target="_blank"
             >
@@ -167,7 +167,7 @@ function Podcast2() {
             <Link
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
               href={
-                "https://soulwork.libsyn.com/s3e8-visibility-as-spiritual-initiation-not-marketing-strategy"
+                "https://podcasts.apple.com/us/podcast/s3-e8-visibility-as-spiritual-initiation-not-marketing/id1435719818?i=1000714350444"
               }
               target="_blank"
             >
@@ -188,7 +188,7 @@ function Podcast2() {
             </Link>
             <Link
               href={
-                "https://soulwork.libsyn.com/s3e7-the-camp-soul-success-case-study"
+                "https://podcasts.apple.com/us/podcast/s3-e7-the-camp-soul-success-case-study/id1435719818?i=1000711934783"
               }
               target="_blank"
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
@@ -211,7 +211,7 @@ function Podcast2() {
 
             <Link
               href={
-                "https://soulwork.libsyn.com/s3-e6-the-aligned-path-of-least-resistance-day-one"
+                "https://podcasts.apple.com/us/podcast/s3-e6-the-aligned-path-of-least-resistance-day-one/id1435719818?i=1000711016476"
               }
               target="_blank"
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"

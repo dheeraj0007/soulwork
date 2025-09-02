@@ -12,39 +12,40 @@ function Intro() {
       <div className="bg-[var(--primary)]/10 flex items-center justify-center px-8 md:px-12 lg:px-16 py-12 lg:py-0">
         <div className="max-w-lg">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-light mb-6 leading-tight playfair text-gray-900">
-            I&apos;M
+            I&apos;m
             <br />
-            ADI Shakti.
+            Adi Shakti.
           </h2>
-          <div className="md:text-lg mb-6 leading-relaxed space-y-2">
+          <div className="md:text-lg mb-6 leading-relaxed space-y-4">
             <p>
-              You found me, and I am so thankful you are here. I have a feeling
-              you will feel the same way soon.
+              I didn&apos;t set out to build a global company. I started out as a humanitarian with a massive heart determined to use my life meaningfully. What started as a vision to share yoga and healing has grown into SoulWork™ — a movement that has generated multi-millions in revenue, trained 3,000+ trauma-informed facilitators, and led 50+ international immersions rooted in the &quot;deep roots, wide branches&quot; methodology.
             </p>
             <p>
-              I am the founder of SoulWork and a devoted student of the Akhanda
-              under my teacher, Yogrishi Vishvketu. My work bridges ancient
-              yogic wisdom from the Nath Shiv yogic tradition with modern
-              leadership.
+              When women rise in wealth with integrity, the ripple effects are unstoppable. That&apos;s why I birthed The Philanthropic Femme — mentoring the builders of Dharmic Legacy Brands that value spiritual depth, business excellence, and holy philanthropic redistribution.
             </p>
             <p>
-              My mission is simple: to help you actualize your potential, live
-              your purpose, and serve humanity with depth, devotion, and joy.
+              I measure my success in my inner metric of joy, in souls served and the tangible impact for causes like indigenous rights advocacy in Central America and support for survivors of human trafficking in India.
+            </p>
+            <p>
+              This isn&apos;t theory. This is my life&apos;s work. I walk the talk. I&apos;ve built, served, failed, refined, and risen again. And now, I&apos;m here to mentor you in your own lifelong journey - to actualize your potential, live your purpose, and serve humanity with depth, devotion, and joy.
             </p>
             <p className="italic font-medium">
-              Welcome to the Journey from your SOUL to the WORK.
+              Welcome to the journey from your SOUL to your WORK
             </p>
           </div>
-          <Link href={"#"}>
-            <Button
-              className="bg-[var(--primary)] border-[1px] border-[var(--secondary)] hover:border-[var(--primary)] hover:bg-[var(--secondary)] text-white font-medium px-4 py-2 rounded-full cursor-pointer transition-colors duration-200"
-              size={"lg"}
-            >
-              Learn More About Me
-            </Button>
-          </Link>
+          <div className="pb-4">
+            <Link href={"#"}>
+              <Button
+                className="bg-[var(--primary)] border-[1px] border-[var(--secondary)] hover:border-[var(--primary)] hover:bg-[var(--secondary)] text-white font-medium px-4 py-2 rounded-full cursor-pointer transition-colors duration-200"
+                size={"lg"}
+              >
+                Learn More About Me
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
+     
 
       {/* Right side - Image */}
       <div className="relative h-full min-h-[70vh] sm:min-h-screen bg-[var(--primary)]/10">

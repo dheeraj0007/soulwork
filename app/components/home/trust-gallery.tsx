@@ -128,8 +128,7 @@ function TrustGallery() {
       <ImageGallery />
 
       <p className="text-center text-white mt-8 text-xl md:text-3xl w-full md:w-1/2 mx-auto">
-        <em className="text-[var(--primary)]">Adi Shakti</em> has trained over
-        3,000+ Trauma Informed Yoga Teachers + Facilitators globally
+        <em className="text-[var(--primary)]">Adi Shakti</em> has trained  Trauma Informed Yoga Teachers + Facilitators globally
       </p>
     </>
   );

@@ -40,13 +40,13 @@ const testimonials: Testimonial[] = [
 ];
 function Testimonials() {
   return (
-    <div className="bg-[var(--secondary)] px-3 md:px-5 py-20">
-      <h1 className="text-3xl md:text-6xl text-center mt-10  bg-[var(--secondary)] text-white font-bold">
-        Student <em className="text-[var(--primary)] ">Experiences</em>
+    <div className="bg-black px-3 md:px-5 py-20">
+      <h1 className="text-3xl md:text-6xl text-center mt-10 bg-black text-white font-bold">
+        <em className="text-[var(--primary)] ">Hear SoulWork Stories</em>
       </h1>
-      <p className="text-center italic text-white mt-2">
+      {/* <p className="text-center italic text-white mt-2">
         &quot;Our Students Never Leave &quot;
-      </p>
+      </p> */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
         {testimonials.map((testimonial) => {

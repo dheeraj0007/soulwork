@@ -11,7 +11,7 @@ function Ascent() {
           <div className="flex flex-col justify-center space-y-5">
             <h1 className="text-lg uppercase font-semibold text-[var(--primary)]">THE ASCENT</h1>
             <h2 className="text-3xl md:text-5xl playfair text-[var(--secondary)]">
-              Adi Shakti&apos;s 12 month Inner Circle MasterMind for
+              <strong>Adi Shakti&apos;s 12 month Inner Circle MasterMind</strong> for
               Philanthropic Femme&apos;s building Dharmic Legacy Brands
             </h2>
             <p className="text-lg text-gray-700">
@@ -38,7 +38,7 @@ function Ascent() {
           <div className="flex justify-center items-center">
             <div className="w-full h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/ascent.webp"
+                src="/ascent.jpeg"
                 alt="Adi"
                 width={800}
                 height={600}

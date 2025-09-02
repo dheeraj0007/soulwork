@@ -22,7 +22,7 @@ function SocialProof() {
         />
         <p className="text-center text-white mt-8 text-xl md:text-3xl w-full md:w-1/2 mx-auto">
           <span className="text-[var(--primary)]">Adi Shakti</span> has trained
-          over 3,000+ Trauma Informed Yoga Teachers + Facilitators globally
+           Trauma Informed Yoga Teachers + Facilitators globally
         </p>
       </div>
       <Image
