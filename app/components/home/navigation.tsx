@@ -89,7 +89,7 @@ export default function Navigation() {
                     >
                       Testimonials
                     </Link>
-                    <Link href="#" className="block px-4 py-2 text-sm ">
+                    <Link href="/media-kit" className="block px-4 py-2 text-sm ">
                       Media Kit
                     </Link>
                   </div>
@@ -229,7 +229,7 @@ export default function Navigation() {
                         Testimonials
                       </Link>
                       <Link
-                        href="#"
+                        href="/media-kit"
                         className="block text-base  hover:text-gray-900 transition-colors"
                       >
                         Media Kit

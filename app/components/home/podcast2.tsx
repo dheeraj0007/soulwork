@@ -113,6 +113,33 @@ function Podcast2() {
             <Link
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
               href={
+                "https://soulwork.libsyn.com/s4-e10-the-pioneer-code-that-separates-movers-from-the-masses-w-bridget-james-ling"
+              }
+              target="_blank"
+            >
+              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
+                S3:E10
+              </span>
+              <span className="transition-transform duration-200 group-hover:translate-x-5">
+              The “Pioneer Code” That Separates Movers From the Masses w/ Bridget James Ling
+              </span>
+              <Image
+                src={"/playbutton.png"}
+                width={60}
+                height={60}
+                alt="playbutton"
+                className="hidden md:block"
+              />
+            </Link>
+
+
+
+
+
+
+            <Link
+              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
+              href={
                 "https://soulwork.libsyn.com/s3e9-the-almighty-teaching-from-adi-shakti-herself"
               }
               target="_blank"
@@ -131,6 +158,12 @@ function Podcast2() {
                 className="hidden md:block"
               />
             </Link>
+
+
+
+
+
+
             <Link
               className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
               href={
@@ -197,7 +230,7 @@ function Podcast2() {
                 className="hidden md:block"
               />
             </Link>
-            <Link
+            {/* <Link
               href={
                 "https://soulwork.libsyn.com/s3e5-from-broke-servant-to-dharmic-steward-my-story"
               }
@@ -217,7 +250,7 @@ function Podcast2() {
                 alt="playbutton"
                 className="hidden md:block"
               />
-            </Link>
+            </Link> */}
             <div className="flex justify-center">
               <Link
                 href={

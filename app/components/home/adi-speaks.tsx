@@ -12,7 +12,7 @@ function AdiSpeaks() {
     {
       quote:
         " Adi Shaktis mission is to guide seekers and holistic entrepreneurs to deepen their spiritual life, achieve excellence in their entrepreneurial pursuits, and give forward with soul.",
-      src: "https://images.squarespace-cdn.com/content/v1/657b9c94cdc58770e06e2c22/cc0ba4db-59e5-4182-b48b-66a855dd9672/Crania_SoulCamp_501.jpg?format=1000w",
+      src: "https://images.squarespace-cdn.com/content/v1/657b9c94cdc58770e06e2c22/cc0ba4db-59e5-4182-ac51-9211537ea068/IMG_7309.jpg?format=2500w",
     },
     {
       quote:
