@@ -92,7 +92,7 @@ export default function Home() {
                   stroke="white"
                   strokeWidth="2.5"
                   strokeLinecap="round"
-                  className="absolute top-8 md:top-2"
+                  className="absolute -bottom-4 md:top-2"
                 >
                   <motion.path
                     d="M 10 15 Q 75 8 150 15 T 290 15"
