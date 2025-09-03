@@ -14,7 +14,6 @@ import { useInView } from "motion/react";
 import { useRef } from "react";
 import { motion } from "motion/react";
 import Testimonials from "./testimonials/page";
-import FeaturedOn from "./components/home/featured-on";
 
 
 export default function Home() {
