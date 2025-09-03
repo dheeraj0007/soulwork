@@ -79,11 +79,6 @@ function OptIn() {
               Get Free Training
             </button>
           </form>
-          <script
-            async
-            data-uid="27be22c072"
-            src="https://dheeraj-gulati.kit.com/27be22c072/index.js"
-          ></script>
           <Link className="text-xs text-gray-500 mt-4" href={"/privacy-policy"}>
             By entering your info, you&apos;ll become a SoulWorker and receive
             updates to your inbox. (Unsububscribe any time) You also agree to
