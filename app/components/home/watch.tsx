@@ -47,25 +47,14 @@ function Watch() {
               </Button>
             </Link>
           </div>
-          <div className="flex justify-center items-center relative overflow-visible">
-            <div className="relative w-full h-[500px] flex items-center justify-center">
-              <Image
-                src={"/film.svg"}
-                width={800}
-                height={600}
-                className="w-full h-full object-contain rounded-lg transition-transform duration-300 hover:scale-105 shadow-lg transform rotate-3 hover:rotate-0"
-                alt="movie"
-                style={{
-                  filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.3))',
-                  transform: 'perspective(1000px) rotateY(-5deg) rotateX(5deg)',
-                }}
-              />
-              {/* 3D overlay effect for hands flowing out */}
-              <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-[var(--primary)]/20 to-transparent rounded-full blur-sm"></div>
-                <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gradient-to-tr from-[var(--secondary)]/10 to-transparent rounded-full blur-md"></div>
-              </div>
-            </div>
+          <div className="flex justify-center items-center">
+            <Image
+              src={"/soulworkfilm.jpeg"}
+              height={1000}
+              width={1000}
+              alt="movie"
+              className="w-fit h-[400px] md:h-[500px] shadow-lg rounded-lg transition-transform duration-300 hover:scale-105"
+            />
           </div>
         </div>
       </div>
