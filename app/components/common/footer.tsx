@@ -6,7 +6,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[var(--secondary)] border-t-[1px] border-gray-500 text-white py-20 px-10 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="bg-[var(--secondary)] border-t-[1px] border-gray-500 text-white py-20 px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <div className="space-y-4">
         <div>
           <Image src={"/logo.png"} width={200} height={200} alt="logo" />
@@ -22,17 +22,41 @@ function Footer() {
           rooted in spiritual depth.
         </p>
         <div className="space-y-5">
-          <Input
-            type="email"
-            name="email_address"
-            placeholder="Enter your email"
-            className="px-4 py-3 border border-black w-full sm:w-60 flex-grow outline-none rounded-none bg-white "
-          />
-          <Link href={"https://soulwork.kit.com/6ecb3fe716"} target="_blank">
-            <Button className="bg-[var(--primary)] hover:border-t-4  hover:border-b-0 text-white font-medium px-4 py-2 rounded-full border-b-4 border-black text-lg cursor-pointer">
+          <form
+            action="https://app.kit.com/forms/8447521/subscriptions"
+            method="post"
+            className="grid gap-4"
+            target="_blank"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Input
+                type="text"
+                name="fields[first_name]"
+                placeholder="First Name"
+                required
+                className="px-4 py-4 border border-black w-full sm:w-auto flex-grow outline-none rounded-none bg-white placeholder:text-lg placeholder:text-black"
+              />
+              <Input
+                type="text"
+                name="fields[age]"
+                placeholder="Instagram handle"
+                className="px-4 py-4 border border-black w-full sm:w-auto flex-grow outline-none rounded-none bg-white placeholder:text-lg placeholder:text-black"
+              />
+            </div>
+            <Input
+              type="email"
+              name="email_address"
+              placeholder="Enter your email"
+              required
+              className="px-4 py-4 border border-black w-full sm:w-auto flex-grow outline-none rounded-none bg-white placeholder:text-lg placeholder:text-black mt-4"
+            />
+            <button
+              type="submit"
+              className="bg-[var(--primary)]/80 border-[1px] border-[var(--secondary)] uppercase w-full text-white px-4 py-2 rounded-full cursor-pointer transition-colors duration-200 mt-4"
+            >
               Get Free Training
-            </Button>
-          </Link>
+            </button>
+          </form>
 
           <p className="mt-2 text-xs md:w-2/3">
             By entering your info, you&apos;ll become a SoulWorker and receive

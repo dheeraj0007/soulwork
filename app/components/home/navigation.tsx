@@ -68,7 +68,7 @@ export default function Navigation() {
                 Podcast
               </Link>
               <Link
-                href="#"
+                href="/about"
                 className="  hover:text-[#c78067] transition-colors"
               >
                 About
@@ -89,7 +89,10 @@ export default function Navigation() {
                     >
                       Testimonials
                     </Link>
-                    <Link href="/media-kit" className="block px-4 py-2 text-sm ">
+                    <Link
+                      href="/media-kit"
+                      className="block px-4 py-2 text-sm "
+                    >
                       Media Kit
                     </Link>
                   </div>
@@ -200,7 +203,7 @@ export default function Navigation() {
                 {/* About */}
                 <div>
                   <Link
-                    href="#"
+                    href="/about"
                     className="block text-lg  text-gray-900 hover:text-[#c78067] transition-colors border-b-[1px] border-b-[#c78067] pb-4"
                   >
                     About

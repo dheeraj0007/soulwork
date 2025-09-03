@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import { Input } from "@/components/ui/input";
 
 function OptIn() {
   const ref = useRef(null);
@@ -43,28 +44,28 @@ function OptIn() {
           </div>
 
           {/* ConvertKit Embed Form */}
-          <form 
-            action="https://app.convertkit.com/forms/6ecb3fe716/subscriptions" 
-            method="post" 
+          <form
+            action="https://app.kit.com/forms/8447521/subscriptions"
+            method="post"
             className="grid gap-4"
             target="_blank"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
+              <Input
                 type="text"
-                name="first_name"
+                name="fields[first_name]"
                 placeholder="First Name"
                 required
                 className="px-4 py-5 border border-black w-full sm:w-auto flex-grow outline-none rounded-none bg-white placeholder:text-lg placeholder:text-black"
               />
-              <input
+              <Input
                 type="text"
-                name="instagram_handle"
+                name="fields[age]"
                 placeholder="Instagram handle"
                 className="px-4 py-5 border border-black w-full sm:w-auto flex-grow outline-none rounded-none bg-white placeholder:text-lg placeholder:text-black"
               />
             </div>
-            <input
+            <Input
               type="email"
               name="email_address"
               placeholder="Enter your email"
@@ -78,6 +79,11 @@ function OptIn() {
               Get Free Training
             </button>
           </form>
+          <script
+            async
+            data-uid="27be22c072"
+            src="https://dheeraj-gulati.kit.com/27be22c072/index.js"
+          ></script>
           <Link className="text-xs text-gray-500 mt-4" href={"/privacy-policy"}>
             By entering your info, you&apos;ll become a SoulWorker and receive
             updates to your inbox. (Unsububscribe any time) You also agree to
