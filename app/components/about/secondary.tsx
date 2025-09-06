@@ -132,7 +132,7 @@ function Secondary() {
         share their wisdom with others.
       </p>
 
-      <h1 className="text-5xl playfair tracking-tight">
+      <h1 className="text-3xl md:text-5xl playfair tracking-tight">
         I measure my success in my inner metric of joy.
       </h1>
     </div>

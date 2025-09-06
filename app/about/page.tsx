@@ -4,6 +4,9 @@ import Intro from "../components/about/intro";
 import Secondary from "../components/about/secondary";
 import MainSection from "../components/about/mainsection";
 import Image from "next/image";
+import MainSection2 from "../components/about/mainsection2";
+import BringsMe from "../components/about/bringsme";
+import Business from "../components/about/business";
 
 function About() {
   return (
@@ -25,6 +28,10 @@ function About() {
           />
         </div>
       </section>
+
+      <MainSection2 />
+      <BringsMe />
+      <Business />
     </div>
   );
 }
