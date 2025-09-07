@@ -15,7 +15,7 @@ function Intro() {
       initial={{ opacity: 0, y: 30 }}
       animate={isClient ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
       transition={{ duration: 1, ease: "easeOut" }}
-      className="py-14 px-8 flex items-center justify-center mt-18 bg-[var(--pre-primary)]/20"
+      className="py-14 px-8 flex items-center justify-center bg-[var(--pre-primary)]/20"
     >
       <p className="text-center w-full text-xl md:w-2/3 leading-10 tracking-tight">
         I&apos;m Adi, the visionary founder and guiding force behind
