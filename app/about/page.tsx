@@ -7,6 +7,8 @@ import Image from "next/image";
 import MainSection2 from "../components/about/mainsection2";
 import BringsMe from "../components/about/bringsme";
 import Business from "../components/about/business";
+import Insider from "../components/about/insider";
+import Final from "../components/about/final";
 
 function About() {
   return (
@@ -32,6 +34,8 @@ function About() {
       <MainSection2 />
       <BringsMe />
       <Business />
+      <Insider />
+      <Final />
     </div>
   );
 }
