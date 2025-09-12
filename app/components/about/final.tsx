@@ -10,7 +10,7 @@ function Final() {
         With her unwavering commitment to personal growth and spiritual
         evolution, <em className="text-[var(--primary)]"> Adi Shakti</em>{" "}
         remains a beacon of light, illuminating the path for those seeking
-        transformation and awakening.Her profound impact on the lives of
+        transformation and awakening. Her profound impact on the lives of
         individuals and the spiritual community at large cements her legacy as a
         true pioneer in the field of{" "}
         <em className="text-[var(--primary)]">soul-centered living</em>.

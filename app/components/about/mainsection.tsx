@@ -12,15 +12,12 @@ function MainSection() {
       <div className="h-full w-full px-5 flex items-center justify-around bg-black/50">
         <div className="bg-white p-15 w-full  md:w-[600px] space-y-5 leading-8">
           <p className="text-lg">
-            From the non-stop frenzy working on the floor of the New York Stock
-            Exchange, to the well-heeled halls of Condé Nast publishing, to
-            choreographing hip-hop on MTV and being one of the world&apos;s
-            first Nike Elite Dance Athletes, to publishing two international
-            bestsellers, to founding a digital education company named in the
-            Inc. 500, I&apos;m undeniable proof that...
+            Adi&apos;s compassionate nature and deep empathy create a safe and
+            nurturing space for individuals to explore their inner landscapes.
+            Her teachings are rooted in the principles of self-love, self-acceptance, and self-empowerment. She believes that by embracing our shadows and integrating all aspects of ourselves, we can awaken our innate wisdom and live a life of meaning and fulfillment.
           </p>
           <h1 className="text-3xl md:text-5xl playfair tracking-tight">
-            Traditional rules were made to be broken.
+            By embracing our shadows and integrating all aspects of ourselves, we can awaken our innate wisdom.
           </h1>
         </div>
         <div></div>

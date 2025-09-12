@@ -5,21 +5,20 @@ function MainSection2() {
   return (
     <div className="max-w-6xl text-lg mx-auto px-8 md:px-12 pb-16 space-y-8 py-10 md:py-24">
       <h1 className="text-3xl md:text-5xl playfair tracking-tight">
-        I inspires others to recognize their potential as agents of change and
+        Adi inspires others to recognize their potential as agents of change and
         to engage in meaningful efforts that uplift humanity as a whole.
       </h1>
 
       <p className="leading-8">
         Beyond her dedication to personal transformation, Adi Shakti has
         initiated and actively supported various humanitarian projects, with a
-        special focus on Costa Rica and India.Recognizing the interconnectedness
+        special focus on Costa Rica and India. Recognizing the interconnectedness
         of all beings, she has utilized her platform and resources to make a
         positive impact in these communities.
       </p>
 
       <p className="leading-8">
-        Adi&apos;s compassionate nature and deep empathy create a safe and
-        nurturing space for individuals to explore their inner landscapes.
+        From supporting education and healthcare initiatives to fostering environmental conservation and sustainable living practices, Adi Shakti&apos;s contributions have helped improve the lives of many.
       </p>
 
       <div className="grid space-y-3 md:space-y-0 grid-cols-1 lg:grid-cols-3 gap-4">
@@ -32,10 +31,9 @@ function MainSection2() {
             alt=""
           />
           <div>
-            <h1 className="text-3xl playfair">Lorem Lipsum</h1>
+            <h1 className="text-3xl playfair">Costa Rica Projects</h1>
             <p className="mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-              dignissimos!
+              Supporting education and healthcare initiatives in Costa Rica communities.
             </p>
           </div>
         </div>
@@ -48,10 +46,9 @@ function MainSection2() {
             alt=""
           />
           <div>
-            <h1 className="text-3xl playfair">Lorem Lipsum</h1>
+            <h1 className="text-3xl playfair">India Initiatives</h1>
             <p className="mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-              dignissimos!
+              Fostering environmental conservation and sustainable living practices.
             </p>
           </div>
         </div>
@@ -64,19 +61,16 @@ function MainSection2() {
             alt=""
           />
           <div>
-            <h1 className="text-3xl playfair">Lorem Lipsum</h1>
+            <h1 className="text-3xl playfair">Global Impact</h1>
             <p className="mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-              dignissimos!
+              Creating a more compassionate and harmonious world through spiritual and social responsibility.
             </p>
           </div>
         </div>
       </div>
 
       <h1 className="text-3xl md:text-5xl playfair tracking-tight py-10">
-        I believe that by embracing our shadows and integrating all aspects of
-        ourselves, we can awaken our innate wisdom and live a life of meaning
-        and fulfillment.
+        Her work serves as a testament to her commitment to creating a more compassionate and harmonious world.
       </h1>
     </div>
   );

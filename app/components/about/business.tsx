@@ -20,6 +20,9 @@ function Business() {
         inner resources, unlock their full potential, and create a life filled
         with joy, purpose, and abundance.
       </p>
+      <p className="leading-8">
+        By bridging spirituality and social responsibility, Adi Shakti inspires others to recognize their potential as agents of change and to engage in meaningful efforts that uplift humanity as a whole.
+      </p>
     </div>
   );
 }
