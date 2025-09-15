@@ -30,17 +30,28 @@ function Final() {
             dreams, on your terms.
           </p>
           <form
-            action="
-          "
+            action="https://app.kit.com/forms/8447521/subscriptions"
+            method="post"
+            target="_blank"
             className="space-y-3 "
           >
             <Input
               type="text"
+              name="fields[first_name]"
+              required
               placeholder="First Name"
               className="rounded-none  bg-white  placeholder:text-black placeholder:text-lg py-5 text-lg"
             />
             <Input
+              type="text"
+              name="fields[age]"
+              required
+              placeholder="Instagram handle"
+              className="rounded-none  bg-white  placeholder:text-black placeholder:text-lg py-5 text-lg"
+            />
+            <Input
               type="email"
+              name="email_address"
               placeholder="Enter Your Email"
               className="rounded-none  bg-white placeholder:text-black placeholder:text-lg py-5 text-lg"
             />
@@ -51,11 +62,11 @@ function Final() {
               YES, PLEASE!
             </Button>
             <p className="text-xs text-justify ">
-              By entering your info, you&apos;ll become an MF Insider - with
-              FREE access to exclusive insights, private Q+As, and inspiring
-              episodes of MarieTV, delivered with 💜 to your inbox. (Unsub
-              anytime in a click.) You also agree to our Terms of Use and
-              Privacy Policy.
+              By entering your info, you&apos;ll join the SoulWork Community —
+              with FREE access to guided practices, exclusive teachings, and
+              inspiring podcast episodes, delivered with ❤️ to your inbox.
+              (Unsubscribe anytime with a single click.) You also agree to our
+              Terms of Use and Privacy Policy.
             </p>
           </form>
         </div>
@@ -69,13 +80,13 @@ function Final() {
       </div>
 
       <p className="leading-8">
-        It&apos;ll walk you through the fundamentals of turning your dreams into
-        reality while living a deeply rich and meaningful life. Can&apos;t wait
-        for you to listen.
+        It will guide you to align with your soul&apos;s purpose and create a
+        life rooted in depth, devotion, and joy. I can&apos;t wait for you to
+        experience it.
       </p>
       <p className="leading-8">
-        Thank you so much for taking the time to visit. I&apos;m thrilled
-        we&apos;re connected and I&apos;m excited for the journey ahead.
+        Thank you for being here. I&apos;m honored we&apos;re connected, and I
+        look forward to walking this path of transformation together.
       </p>
       <p className="flex flex-col">
         <span>With all my love,</span> <span>XO</span>

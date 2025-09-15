@@ -13,15 +13,19 @@ function BringsMe() {
       />
       <div className="bg-white p-10 lg:p-15 max-w-[600px] space-y-5 leading-8 md:order-2 my-20">
         <h1 className="text-3xl md:text-5xl playfair tracking-tight">
-          Traditional rules were made to be broken.
+          Which brings me to you.
         </h1>
-        <p className="text-lg">
-          From the non-stop frenzy working on the floor of the New York Stock
-          Exchange, to the well-heeled halls of Condé Nast publishing, to
-          choreographing hip-hop on MTV and being one of the world&apos;s first
-          Nike Elite Dance Athletes, to publishing two international
-          bestsellers, to founding a digital education company named in the Inc.
-          500, I&apos;m undeniable proof that...
+        <p className="">
+          I&apos;m Adi Shakti. What began as a vision to share yoga and healing
+          has grown into SoulWork™ — a global movement training thousands of
+          facilitators and leading immersions across the world.
+          <br />
+          For me, success is measured in joy, in souls served, and in the real
+          impact on causes from indigenous rights to supporting survivors of
+          human trafficking.
+          <br />
+          I&apos;m here to guide you in living your purpose, awakening your
+          potential, and serving humanity with devotion and love.
         </p>
       </div>
     </div>

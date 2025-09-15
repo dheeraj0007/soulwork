@@ -12,15 +12,14 @@ function MainSection() {
       <div className="h-full w-full px-5 flex items-center justify-around bg-black/50">
         <div className="bg-white p-15 w-full  md:w-[600px] space-y-5 leading-8">
           <p className="text-lg">
-            From the non-stop frenzy working on the floor of the New York Stock
-            Exchange, to the well-heeled halls of Condé Nast publishing, to
-            choreographing hip-hop on MTV and being one of the world&apos;s
-            first Nike Elite Dance Athletes, to publishing two international
-            bestsellers, to founding a digital education company named in the
-            Inc. 500, I&apos;m undeniable proof that...
+            From the Himalayan foothills under the guidance of the Akhanda
+            lineage, to leading retreats in Costa Rica, to training thousands of
+            teachers across the globe, to pioneering SoulWork as a revolutionary
+            path of healing and awakening, to championing humanitarian projects
+            that uplift entire communities, I am living proof that..
           </p>
           <h1 className="text-3xl md:text-5xl playfair tracking-tight">
-            Traditional rules were made to be broken.
+            The journey within is the most powerful journey of all.
           </h1>
         </div>
         <div></div>

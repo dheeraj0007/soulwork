@@ -17,28 +17,46 @@ function Insider() {
       </div>
 
       <div className="mx-10">
-        <form action="" className="space-y-3">
+        <form
+          action="https://app.kit.com/forms/8447521/subscriptions"
+          method="post"
+          target="_blank"
+          className="space-y-3"
+        >
           <Input
             type="text"
+            name="fields[first_name]"
             placeholder="First Name"
+            required
+            className="rounded-none border-[1px] border-[#e6c5c0] placeholder:text-black placeholder:text-lg py-4 text-lg"
+          />
+          <Input
+            type="text"
+            name="fields[age]"
+            placeholder="Instagram handle"
+            required
             className="rounded-none border-[1px] border-[#e6c5c0] placeholder:text-black placeholder:text-lg py-4 text-lg"
           />
           <Input
             type="email"
+            name="email_address"
+            required
             placeholder="Enter Your Email"
             className="rounded-none border-[1px] border-[#e6c5c0] placeholder:text-black placeholder:text-lg py-4 text-lg"
           />
           <Button
             className=" cursor-pointer bg-black text-white px-8 py-3 rounded-full transition-all duration-200 hover:scale-105 hover:bg-[var(--primary)]/90 w-full font-semibold"
             size={"lg"}
+            type="submit"
           >
             YES, PLEASE!
           </Button>
           <p className="text-xs text-justify ">
-            By entering your info, you&apos;ll become an MF Insider - with FREE
-            access to exclusive insights, private Q+As, and inspiring episodes
-            of MarieTV, delivered with 💜 to your inbox. (Unsub anytime in a
-            click.) You also agree to our Terms of Use and Privacy Policy.
+            By entering your info, you&apos;ll join the SoulWork Community —
+            with FREE access to guided practices, exclusive teachings, and
+            inspiring podcast episodes, delivered with ❤️ to your inbox.
+            (Unsubscribe anytime with a single click.) You also agree to our
+            Terms of Use and Privacy Policy.
           </p>
         </form>
       </div>

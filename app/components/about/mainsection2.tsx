@@ -32,10 +32,10 @@ function MainSection2() {
             alt=""
           />
           <div>
-            <h1 className="text-3xl playfair">Lorem Lipsum</h1>
+            <h1 className="text-3xl playfair">SoulWork Sanctuary</h1>
             <p className="mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-              dignissimos!
+              Immersive retreats in Costa Rica where seekers from around the
+              world gather for deep healing and transformation.
             </p>
           </div>
         </div>
@@ -48,10 +48,10 @@ function MainSection2() {
             alt=""
           />
           <div>
-            <h1 className="text-3xl playfair">Lorem Lipsum</h1>
+            <h1 className="text-3xl playfair">Training Leaders</h1>
             <p className="mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-              dignissimos!
+              Adi has certified thousands of teachers worldwide, empowering them
+              to share SoulWork&apos;s wisdom and guide others.
             </p>
           </div>
         </div>
@@ -64,10 +64,10 @@ function MainSection2() {
             alt=""
           />
           <div>
-            <h1 className="text-3xl playfair">Lorem Lipsum</h1>
+            <h1 className="text-3xl playfair">Service in Action</h1>
             <p className="mt-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-              dignissimos!
+              From India to Costa Rica, Adi supports education, healthcare, and
+              sustainability projects that uplift communities.
             </p>
           </div>
         </div>
