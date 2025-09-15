@@ -16,7 +16,7 @@ export default function AnimatedSection({
   delay = 0
 }: AnimatedSectionProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, margin: "-50px" });
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -31,8 +31,8 @@ export default function AnimatedSection({
     <motion.div
       ref={ref}
       className={className}
-      initial={{ opacity: 0 }}
-      animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+      initial={{ opacity: 0.3 }}
+      animate={isInView ? { opacity: 1 } : { opacity: 0.3 }}
       transition={{
         duration: 0.3,
         delay: delay,
