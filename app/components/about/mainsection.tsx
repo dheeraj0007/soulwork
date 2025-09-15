@@ -12,14 +12,17 @@ function MainSection() {
       <div className="h-full w-full px-5 flex items-center justify-around bg-black/50">
         <div className="bg-white p-15 w-full  md:w-[600px] space-y-5 leading-8">
           <p className="text-lg">
-            From the Himalayan foothills under the guidance of the Akhanda
-            lineage, to leading retreats in Costa Rica, to training thousands of
-            teachers across the globe, to pioneering SoulWork as a revolutionary
-            path of healing and awakening, to championing humanitarian projects
-            that uplift entire communities, I am living proof that..
+            Adi&apos;s compassionate nature and deep empathy create a safe and
+            nurturing space for individuals to explore their inner landscapes.
+            Her teachings are rooted in the principles of self-love,
+            self-acceptance, and self-empowerment. She believes that by
+            embracing our shadows and integrating all aspects of ourselves, we
+            can awaken our innate wisdom and live a life of meaning and
+            fulfillment.
           </p>
           <h1 className="text-3xl md:text-5xl playfair tracking-tight">
-            The journey within is the most powerful journey of all.
+            By embracing our shadows and integrating all aspects of ourselves,
+            we can awaken our innate wisdom.
           </h1>
         </div>
         <div></div>

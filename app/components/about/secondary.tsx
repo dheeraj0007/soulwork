@@ -32,22 +32,19 @@ function Secondary() {
         <p>Akhanda Lineage and the Nath Shiv Tradition</p>
         <ul className="list-disc marker:text-sm p-5 space-y-3">
           <li>
-            <span className="font-medium ">Lineage and Authority</span> : Guided
-            by Yogrishi Vishvketu and blessed by the{" "}
+            <span className="font-medium ">Lineage and Authority</span> : Her spiritual teacher is Yogrishi Vishvketu, and her authority to offer the yoga practices comes from the blessing of the{" "}
             <span className="text-[var(--primary)]">Akhanda Lineage</span>,
-            rooted in the Nath Shiv tradition of the{" "}
-            <span className="font-medium italic">Himalayan</span> foothills.
+            with roots in the Nath Shiv lineage in the{" "}
+            <span className="font-medium italic">Himalayan</span> foothills of Northern India.
           </li>
           <li>
-            <span className="font-medium ">Integrated Practices</span> : Nath
-            yogis combine asanas, pranayama,
-            <span className="text-[var(--primary)]"> kundalini awakening</span>,
-            and meditation in their daily sadhana.
+            <span className="font-medium ">Integrated Practices</span> : In their pursuit of self-realization, the Nath yogis integrate physical postures (asanas), breath control (pranayama),
+            <span className="text-[var(--primary)]"> energy regulation (kundalini awakening)</span>,
+            and meditation techniques into their daily sadhana (spiritual practice).
           </li>
           <li>
             <span className="font-medium ">Spiritual Goal</span> : These
-            practices awaken inner energies, deepen spiritual awareness, and
-            lead to union with the divine.
+            practices awaken dormant energies within the practitioner, leading to heightened awareness, spiritual insights, and ultimately, union with the divine.
           </li>
         </ul>
       </div>
@@ -72,20 +69,16 @@ function Secondary() {
           </p>
 
           <h1 className="text-3xl md:text-5xl playfair mt-5">
-            &quot;Post Traumatic Growth&quot;{" "}
+            &quot;Soul-Centered Living&quot;{" "}
             <span className="text-lg">
-              through the <span className="font-semibold">SoulWork</span> Lens.
+              through the <span className="font-semibold">SoulWork</span> Approach.
             </span>
           </h1>
 
           <p className="leading-8">
-            Why is it that sometimes we crumble after challenges in our lives,
-            and sometimes we soar?{" "}
-            <span className="font-semibold">My upcoming</span>{" "}
-            <span className="text-[var(--primary)] font-semibold">book</span>{" "}
-            dives into the stories of our SoulWork community, and we uncover the
-            conditions, tools, support + practices necessary to alchemize pain
-            into greatness.
+            She guides individuals on a profound inner journey to reclaim their
+            authentic selves, heal emotional wounds, and cultivate a deep connection
+            with their soul&apos;s purpose.
           </p>
 
           <p className="leading-8">
@@ -106,20 +99,10 @@ function Secondary() {
       </div>
 
       <p className="leading-8">
-        She guides individuals on a profound inner journey to reclaim their
-        authentic selves, heal emotional wounds, and cultivate a deep connection
-        with their soul&apos;s purpose.
-      </p>
-      <p className="leading-8">
-        Adi is not only a transformative guide but also a passionate{" "}
-        <span className="font-semibold">
-          advocate for global change and humanitarian efforts
-        </span>
-        . With her extensive knowledge and expertise, she has trained thousands
+        With her extensive knowledge and expertise, she has trained thousands
         of teachers, empowering them to carry forth the principles of SoulWork
         and touch the lives of countless individuals around the world.
       </p>
-
       <p className="leading-8">
         Recognizing the importance of cultivating leaders in the holistic
         community,{" "}
@@ -133,7 +116,7 @@ function Secondary() {
       </p>
 
       <h1 className="text-3xl md:text-5xl playfair tracking-tight">
-        I measure my success in my inner metric of joy.
+        Her teachings are rooted in the principles of self-love, self-acceptance, and self-empowerment.
       </h1>
     </div>
   );
