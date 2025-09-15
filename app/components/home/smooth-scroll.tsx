@@ -8,7 +8,7 @@ export default function SmoothScroll() {
       const target = e.target as HTMLElement;
       const href = target.getAttribute("href");
 
-      if (href && href.startsWith("#")) {
+      if (href && href.startsWith("#") && href.length > 1) {
         e.preventDefault();
         const element = document.querySelector(href);
         if (element) {

@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,7 +5,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[var(--secondary)] border-t-[1px] border-gray-500 text-white py-20 px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="bg-[var(--secondary)] border-t-[1px] border-gray-500 text-white py-20 px-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div className="space-y-4">
         <div>
           <Image src={"/logo.png"} width={200} height={200} alt="logo" />
@@ -66,17 +65,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
-        <Image
-          src={"/optin.PNG"}
-          height={300}
-          width={300}
-          alt="opt-in"
-          className="rounded-lg"
-        />
-      </div>
-
-      <div className="flex flex-col space-y-3 md:mt-16 font-medium ">
+      <div className="flex flex-col space-y-3 font-medium">
         <Link href={"/"}>Home</Link>
         <Link href={"/"}>Blog</Link>
         <Link href={"/#ascent"}>The Ascent</Link>

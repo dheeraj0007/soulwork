@@ -34,7 +34,7 @@ function Intro() {
             </p>
           </div>
           <div className="pb-4">
-            <Link href={"#"}>
+            <Link href={"/about"}>
               <Button
                 className="bg-[var(--primary)] border-[1px] border-[var(--secondary)] hover:border-[var(--primary)] hover:bg-[var(--secondary)] text-white font-medium px-4 py-2 rounded-full cursor-pointer transition-colors duration-200"
                 size={"lg"}
