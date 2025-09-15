@@ -143,54 +143,30 @@ export default function Home() {
         </div>
       </section>
 
-      <AnimatedSection delay={0.1}>
-        <OptIn />
-      </AnimatedSection>
+      <OptIn />
 
-      <AnimatedSection delay={0.1}>
-        <Intro />
-      </AnimatedSection>
+      <Intro />
 
       {/* Social Image Section */}
-      <AnimatedSection delay={0.1}>
-        <section className="bg-white">
-          <div className="w-full">
-            <Image
-              src="/social.webp"
-              alt="Social"
-              width={1920}
-              height={1080}
-              className="w-full h-auto"
-            />
-          </div>
-        </section>
-      </AnimatedSection>
+      <section className="bg-white">
+        <div className="w-full">
+          <Image
+            src="/social.webp"
+            alt="Social"
+            width={1920}
+            height={1080}
+            className="w-full h-auto"
+          />
+        </div>
+      </section>
 
-      <AnimatedSection delay={0.1}>
-        <Read2 />
-      </AnimatedSection>
-      
-      <AnimatedSection delay={0.1}>
-        <Watch />
-      </AnimatedSection>
-      
-      <AnimatedSection delay={0.1}>
-        <Ascent />
-      </AnimatedSection>
-      
-      <AnimatedSection delay={0.1}>
-        <Podcast2 />
-      </AnimatedSection>
-      
-      <AnimatedSection delay={0.1}>
-        <VideoTestimonials />
-      </AnimatedSection>
-      
+      <Read2 />
+      <Watch />
+      <Ascent />
+      <Podcast2 />
+      <VideoTestimonials />
       {/* <AdiSpeaks /> */}
-      
-      <AnimatedSection delay={0.1}>
-        <Trust/>
-      </AnimatedSection>
+      <Trust/>
     </div>
   );
 }
