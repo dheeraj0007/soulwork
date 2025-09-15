@@ -1,9 +1,55 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+interface PodcastEpisode {
+  title: string;
+  link: string;
+  pubDate: string;
+  description: string;
+  episodeNumber?: string;
+  seasonNumber?: string;
+}
+
+interface PodcastData {
+  success: boolean;
+  episodes: PodcastEpisode[];
+  lastUpdated: string;
+}
 
 function Podcast2() {
+  const [podcastData, setPodcastData] = useState<PodcastData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isClient) return;
+
+    const fetchPodcastData = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('/api/podcast');
+        const data = await response.json();
+        setPodcastData(data);
+        setError(null);
+      } catch (err) {
+        console.error('Error fetching podcast data:', err);
+        setError('Failed to load podcast episodes');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPodcastData();
+  }, [isClient]);
+
   return (
     <>
       <video
@@ -110,162 +156,87 @@ function Podcast2() {
           <h1 className="md:text-center text-5xl md:mt-0 mb-10">The Latest</h1>
 
           <div className="text-black text-2xl sm:text-2xl  md:text-3xl">
-            <Link
-              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
-              href={
-                "https://podcasts.apple.com/us/podcast/s3-e10-the-pioneer-code-that-separates-movers-from/id1435719818?i=1000724556867"
-              }
-              target="_blank"
-            >
-              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
-                S3:E10
-              </span>
-              <span className="transition-transform duration-200 group-hover:translate-x-5">
-              The “Pioneer Code” That Separates Movers From the Masses w/ Bridget James Ling
-              </span>
-              <Image
-                src={"/playbutton.png"}
-                width={60}
-                height={60}
-                alt="playbutton"
-                className="hidden md:block"
-              />
-            </Link>
-
-
-
-
-
-
-            <Link
-              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
-              href={
-                "https://podcasts.apple.com/us/podcast/s3-e9-the-almighty-teaching-from-adi-shakti-herself/id1435719818?i=1000723257102"
-              }
-              target="_blank"
-            >
-              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
-                S3:E9
-              </span>
-              <span className="transition-transform duration-200 group-hover:translate-x-5">
-                The Almighty Teaching from Adi Shakti herself
-              </span>
-              <Image
-                src={"/playbutton.png"}
-                width={60}
-                height={60}
-                alt="playbutton"
-                className="hidden md:block"
-              />
-            </Link>
-
-
-
-
-
-
-            <Link
-              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
-              href={
-                "https://podcasts.apple.com/us/podcast/s3-e8-visibility-as-spiritual-initiation-not-marketing/id1435719818?i=1000714350444"
-              }
-              target="_blank"
-            >
-              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
-                S3:E8
-              </span>
-              <span className="transition-transform duration-200 group-hover:translate-x-5">
-                {" "}
-                Visibility as Spiritual Initiation; Not Marketing Strategy
-              </span>
-              <Image
-                src={"/playbutton.png"}
-                width={60}
-                height={60}
-                alt="playbutton"
-                className="hidden md:block"
-              />
-            </Link>
-            <Link
-              href={
-                "https://podcasts.apple.com/us/podcast/s3-e7-the-camp-soul-success-case-study/id1435719818?i=1000711934783"
-              }
-              target="_blank"
-              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
-            >
-              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
-                S3:E7
-              </span>
-              <span className="transition-transform duration-200 group-hover:translate-x-5">
-                {" "}
-                The Camp Soul Success Case Study
-              </span>
-              <Image
-                src={"/playbutton.png"}
-                width={60}
-                height={60}
-                alt="playbutton"
-                className="hidden md:block"
-              />
-            </Link>
-
-            <Link
-              href={
-                "https://podcasts.apple.com/us/podcast/s3-e6-the-aligned-path-of-least-resistance-day-one/id1435719818?i=1000711016476"
-              }
-              target="_blank"
-              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
-            >
-              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
-                S3:E6
-              </span>
-              <span className="transition-transform duration-200 group-hover:translate-x-5">
-                The Aligned Path of Least Resistance {"("}Day One{")"}
-              </span>
-              <Image
-                src={"/playbutton.png"}
-                width={60}
-                height={60}
-                alt="playbutton"
-                className="hidden md:block"
-              />
-            </Link>
-            {/* <Link
-              href={
-                "https://soulwork.libsyn.com/s3e5-from-broke-servant-to-dharmic-steward-my-story"
-              }
-              target="_blank"
-              className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
-            >
-              <span className="absolute text-sm bottom-2 text-[var(--primary)]">
-                S3:E5
-              </span>
-              <span className="transition-transform duration-200 group-hover:translate-x-5">
-                From Broke Servant to Dharmic Steward: My story
-              </span>
-              <Image
-                src={"/playbutton.png"}
-                width={60}
-                height={60}
-                alt="playbutton"
-                className="hidden md:block"
-              />
-            </Link> */}
-            <div className="flex justify-center">
-              <Link
-                href={
-                  "https://podcasts.apple.com/us/podcast/adi-shakti-speaks/id1435719818"
-                }
-                target="_blank"
-              >
-                <Button
-                  className=" border-[1px] border-[var(--secondary)] hover:border-[var(--primary)] cursor-pointer mt-5  bg-[var(--primary)] text-white px-8 py-3 rounded-full transition-all duration-200 hover:scale-105 hover:bg-[var(--primary)]/90"
-                  size={"lg"}
+            {!isClient ? (
+              <div className="flex justify-center items-center py-10">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[var(--primary)]"></div>
+                <span className="ml-3">Loading latest episodes...</span>
+              </div>
+            ) : loading ? (
+              <div className="flex justify-center items-center py-10">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[var(--primary)]"></div>
+                <span className="ml-3">Loading latest episodes...</span>
+              </div>
+            ) : error ? (
+              <div className="text-center py-10 text-red-600">
+                <p>Failed to load podcast episodes. Please try again later.</p>
+                <button 
+                  onClick={() => window.location.reload()} 
+                  className="mt-4 px-4 py-2 bg-[var(--primary)] text-white rounded-full hover:bg-[var(--primary)]/90 transition-colors"
                 >
-                  View All Episodes
-                </Button>
-              </Link>
-            </div>
+                  Retry
+                </button>
+              </div>
+            ) : podcastData?.episodes && podcastData.episodes.length > 0 ? (
+              <>
+                {podcastData.episodes.map((episode, index) => (
+                  <Link
+                    key={index}
+                    className="pt-4 pb-8 border-b-[1px] border-b-[var(--primary)] flex justify-between relative group"
+                    href={episode.link}
+                    target="_blank"
+                  >
+                    <span className="absolute text-sm bottom-2 text-[var(--primary)]">
+                      {episode.episodeNumber || `Episode ${index + 1}`}
+                    </span>
+                    <span className="transition-transform duration-200 group-hover:translate-x-5">
+                      {episode.title}
+                    </span>
+                    <Image
+                      src={"/playbutton.png"}
+                      width={60}
+                      height={60}
+                      alt="playbutton"
+                      className="hidden md:block"
+                    />
+                  </Link>
+                ))}
+                <div className="flex justify-center">
+                  <Link
+                    href={
+                      "https://podcasts.apple.com/us/podcast/adi-shakti-speaks/id1435719818"
+                    }
+                    target="_blank"
+                  >
+                    <Button
+                      className=" border-[1px] border-[var(--secondary)] hover:border-[var(--primary)] cursor-pointer mt-5  bg-[var(--primary)] text-white px-8 py-3 rounded-full transition-all duration-200 hover:scale-105 hover:bg-[var(--primary)]/90"
+                      size={"lg"}
+                    >
+                      View All Episodes
+                    </Button>
+                  </Link>
+                </div>
+              </>
+            ) : (
+              <div className="text-center py-10">
+                <p className="text-gray-600 mb-4">Unable to load latest episodes at the moment.</p>
+                <p className="text-sm text-gray-500">Please check back later or visit the podcast directly.</p>
+                <div className="flex justify-center mt-6">
+                  <Link
+                    href={
+                      "https://podcasts.apple.com/us/podcast/adi-shakti-speaks/id1435719818"
+                    }
+                    target="_blank"
+                  >
+                    <Button
+                      className=" border-[1px] border-[var(--secondary)] hover:border-[var(--primary)] cursor-pointer bg-[var(--primary)] text-white px-8 py-3 rounded-full transition-all duration-200 hover:scale-105 hover:bg-[var(--primary)]/90"
+                      size={"lg"}
+                    >
+                      Visit Podcast
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

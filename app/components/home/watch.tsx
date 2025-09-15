@@ -5,7 +5,7 @@ import React from "react";
 
 function Watch() {
   return (
-    <section id="" className="bg-[#faf9f6] min-h-screen lg:min-h-[60vh] p-5 md:p-10">
+    <section id="film" className="bg-[#faf9f6] min-h-screen lg:min-h-[60vh] p-5 md:p-10">
       <div className="max-w-8xl mx-auto py-10 lg:py-12 px-8 md:px-12 bg-white rounded-lg shadow-lg">
         <div className="grid md:grid-cols-2 gap-10">
           <div className="flex flex-col justify-center space-y-5">

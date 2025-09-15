@@ -55,7 +55,7 @@ export default function Navigation() {
                 </div>
               </div>
               <Link
-                href="#"
+                href="#film"
                 className=" hover:text-[#c78067] transition-colors"
               >
                 Film
@@ -99,10 +99,16 @@ export default function Navigation() {
                 </div>
               </div>
               <Button
+                asChild
                 className="bg-[var(--secondary)] hover:border-t-2 hover:border-b-0 text-white font-medium px-4 py-2 rounded-full  pt-2 border-b-2 border-[var(--primary)] "
                 size={"lg"}
               >
-                Free Training
+                <Link
+                  href="https://soulwork.kit.com/6ecb3fe716"
+                  target="_blank"
+                >
+                  Free Training
+                </Link>
               </Button>
             </div>
 
@@ -182,7 +188,7 @@ export default function Navigation() {
                 {/* Film */}
                 <div>
                   <Link
-                    href="#"
+                    href="#film"
                     className="block text-lg text-gray-900 hover:text-[#c78067] transition-colors border-b-[1px] border-b-[#c78067] pb-4"
                   >
                     Film

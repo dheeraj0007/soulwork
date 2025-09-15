@@ -43,8 +43,10 @@ export const AnimatedTestimonials2 = ({
     setIsClient(true);
   }, []);
 
-  const randomRotateY = () => {
-    return Math.floor(Math.random() * 21) - 10;
+  const randomRotateY = (index: number) => {
+    // Use index-based rotation to ensure consistent server/client rendering
+    const rotations = [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10];
+    return rotations[index % rotations.length];
   };
   if (isClient) {
     return (
@@ -60,13 +62,13 @@ export const AnimatedTestimonials2 = ({
                       opacity: 0,
                       scale: 0.9,
                       z: -100,
-                      rotate: randomRotateY(),
+                      rotate: randomRotateY(index),
                     }}
                     animate={{
                       opacity: isActive(index) ? 1 : 0.7,
                       scale: isActive(index) ? 1 : 0.95,
                       z: isActive(index) ? 0 : -100,
-                      rotate: isActive(index) ? 0 : randomRotateY(),
+                      rotate: isActive(index) ? 0 : randomRotateY(index),
                       zIndex: isActive(index)
                         ? 40
                         : testimonials.length + 2 - index,
@@ -76,7 +78,7 @@ export const AnimatedTestimonials2 = ({
                       opacity: 0,
                       scale: 0.9,
                       z: 100,
-                      rotate: randomRotateY(),
+                      rotate: randomRotateY(index),
                     }}
                     transition={{
                       duration: 0.4,

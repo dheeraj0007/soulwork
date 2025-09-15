@@ -10,10 +10,11 @@ import Trust from "./components/home/trust";
 import Watch from "./components/home/watch";
 import Read2 from "./components/home/read2";
 import Podcast2 from "./components/home/podcast2";
+import VideoTestimonials from "./components/home/video-testimonials";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { motion } from "motion/react";
-import Testimonials from "./testimonials/page";
+import AnimatedSection from "./components/ui/animated-section";
 
 
 export default function Home() {
@@ -142,31 +143,54 @@ export default function Home() {
         </div>
       </section>
 
-      <OptIn />
+      <AnimatedSection delay={0.1}>
+        <OptIn />
+      </AnimatedSection>
 
-      <Intro />
+      <AnimatedSection delay={0.1}>
+        <Intro />
+      </AnimatedSection>
 
       {/* Social Image Section */}
-      <section className="bg-white">
-        <div className="w-full">
-          <Image
-            src="/social.webp"
-            alt="Social"
-            width={1920}
-            height={1080}
-            className="w-full h-auto"
-          />
-        </div>
-      </section>
+      <AnimatedSection delay={0.1}>
+        <section className="bg-white">
+          <div className="w-full">
+            <Image
+              src="/social.webp"
+              alt="Social"
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
+            />
+          </div>
+        </section>
+      </AnimatedSection>
 
-      <Read2 />
-      <Watch />
-      <Ascent />
-      <Podcast2 />
+      <AnimatedSection delay={0.1}>
+        <Read2 />
+      </AnimatedSection>
+      
+      <AnimatedSection delay={0.1}>
+        <Watch />
+      </AnimatedSection>
+      
+      <AnimatedSection delay={0.1}>
+        <Ascent />
+      </AnimatedSection>
+      
+      <AnimatedSection delay={0.1}>
+        <Podcast2 />
+      </AnimatedSection>
+      
+      <AnimatedSection delay={0.1}>
+        <VideoTestimonials />
+      </AnimatedSection>
+      
       {/* <AdiSpeaks /> */}
-<Testimonials/>
-      {/* <Testimonials /> */}
-      <Trust/>
+      
+      <AnimatedSection delay={0.1}>
+        <Trust/>
+      </AnimatedSection>
     </div>
   );
 }
